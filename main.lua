@@ -6,7 +6,7 @@ local runservice = game:GetService("RunService")
 local esp_settings = {
     enabled = true,
     skel = true,
-    skel_col = Color3.fromRGB(0,128,0)
+    skel_col = Color3.fromRGB(1,1,1)
 }
 
 local function draw(player, character)
@@ -14,32 +14,32 @@ local function draw(player, character)
     local skel_head = Drawing.new("Line")
     skel_head.Visible = false
     skel_head.Thickness = 1.5
-    skel_head.Color = Color3.fromRGB(0,128,0)
+    skel_head.Color = Color3.fromRGB(1,1,1)
 
     local skel_torso = Drawing.new("Line")
     skel_torso.Visible = false
     skel_torso.Thickness = 1.5
-    skel_torso.Color = Color3.fromRGB(0,128,0)
+    skel_torso.Color = Color3.fromRGB(1,1,1)
 
     local skel_leftarm = Drawing.new("Line")
     skel_leftarm.Visible = false
     skel_leftarm.Thickness = 1.5
-    skel_leftarm.Color = Color3.fromRGB(0,128,0)
+    skel_leftarm.Color = Color3.fromRGB(1,1,1)
 
     local skel_rightarm = Drawing.new("Line")
     skel_rightarm.Visible = false
     skel_rightarm.Thickness = 1.5
-    skel_rightarm.Color = Color3.fromRGB(0,128,0)
+    skel_rightarm.Color = Color3.fromRGB(1,1,1)
 
     local skel_leftleg = Drawing.new("Line")
     skel_leftleg.Visible = false
     skel_leftleg.Thickness = 1.5
-    skel_leftleg.Color = Color3.fromRGB(0,128,0)
+    skel_leftleg.Color = Color3.fromRGB(1,1,1)
 
     local skel_rightleg = Drawing.new("Line")
     skel_rightleg.Visible = false
     skel_rightleg.Thickness = 1.5
-    skel_rightleg.Color = Color3.fromRGB(0,128,0)
+    skel_rightleg.Color = Color3.fromRGB(1,1,1)
 
     local function update()
         local connection
